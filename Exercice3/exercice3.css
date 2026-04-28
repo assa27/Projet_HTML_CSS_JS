@@ -1,0 +1,85 @@
+/* fond de la page */
+body {
+    /* la police du texte font-family */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    /* espace exterieur */
+    margin: 0;
+    /* espace interieur */
+    padding: 10px;
+}
+
+/*  formulaire */
+form {
+    background-color: white;
+    /* largeur max */
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    /* arrondir les coins  */
+    border-radius: 12px;
+
+}
+
+/*  titre */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* labels */
+label {
+    /* texte en gras */
+    font-weight: bold;
+    /* chaque label passe à la ligne */
+    display: block;
+    margin-top: 10px;
+    color: #444;
+}
+
+/*  inputs */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    /* coins arrondis */
+    border-radius: 6px;
+    /* évite les débordements */
+    box-sizing: border-box;
+}
+
+/*  radio & checkbox  */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/*  bouton */
+button {
+    width: 100%;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    /* taille ecriture */
+    font-size: 16px;
+    /* animation douce */
+    transition: 0.3s;
+}
+
+/*  effet hover */
+button:hover {
+    background-color: #357ABD;
+}
+
+/*  résultat */
+#phrase {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+}
