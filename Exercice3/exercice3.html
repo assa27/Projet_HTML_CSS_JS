@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Execive3</title>
+    </head>
+    
+    <body>
+        <form id="Formulaire">
+            <h1>Formulaire d'inscription</h1>
+            <label>Nom:</label>
+            <!--required  Pour lui dire que le champ est obligatoire -->
+            <input type="text" id= "nom" required> <br><br>
+
+            <label>age:</label>
+            <input type="number" id="age" required> <br><br>
+
+            <label>sexe</label>
+            <!-- Un bouton radio sert à :choisir UNE seule option parmi plusieurs dans une liste Radio = boutons visibles tout le temps-->
+            <!-- dans ce ccas on a pas besoin d'id car sexe n'est pas unique il cilble le groupe entier -->
+            <input type="radio" name="sexe" value="homme" required>homme
+            <input type="radio" name="sexe" value="femme" required>femme <br><br>
+
+            <label>loisirs</label>
+            <!-- Une checkbox (case à cocher) est un élément HTML qui permet de :choisir plusieurs options en même temps -->
+            <!-- name pour recuperer tt la classe et value pour recuperer un seul -->
+            <input type="checkbox" name="loisir" value="lire" >lire
+            <input  type="checkbox" name="loisir" value="jeux societe">jeux societe
+            <input  type="checkbox" name="loisir" value="cours">cours
+            <input  type="checkbox" name="loisir" value="voyage">voyage
+            <input  type="checkbox" name="loisir" value="yoga">yoga <br><br>
+
+            <label>Pays</label>
+            <!-- <select> est une liste déroulante.Ça permet de choisir UNE seule option Select = boîte compacte qui s’ouvre -->
+            <select id="pays" >
+                <option value="">choisir votre pays</option>
+                <option value="SN">Senegal</option>
+                <option value="FR">France</option>
+                <option value="ML">Mali</option>
+                <option value="MR">Maroc</option>
+            </select><br><br>
+
+            <label>Commentaire:</label>
+            <textarea id="commentaire" required></textarea> <br><br>
+
+            <button id="envoyer" onclick="recuperer_champ(event)"  type="submit">Envoyer</button>
+
+        </form>
+        <script src="exercice3.js"></script>
+    </body>
+    
+</html>

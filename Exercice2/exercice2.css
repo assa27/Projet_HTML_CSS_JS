@@ -1,0 +1,27 @@
+#p1{background-color: black;
+    color:pink;
+    width: 80%;
+    text-align:left;
+    
+}
+#p2{background-color: black;
+    color:palevioletred;
+    width: 80%;
+    text-align:left;
+    
+}
+#div1{
+    width: 50%;
+    background-color: blueviolet;
+    text-align: justify;
+    padding: 30px;
+    margin: 40px;
+}
+#monbouton{
+    width: 25%;
+    text-align:center;
+}
+/* pour changer la couleur du bloc div */
+#div1:hover{
+    background-color: darkslateblue;
+}

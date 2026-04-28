@@ -1,0 +1,43 @@
+ body  {
+    background-color : pink;
+    }
+#p1 {
+    background-color: black;
+    color: red;
+    width: 50%;
+ }
+#p2 {
+    background-color: yellow;
+    color: green;
+    width: 50%;
+ }
+ #p3 {
+    background-color: green;
+    color: orange;
+    width: 50%;
+ }
+ #p4 {
+    background-color: grey;
+    color: white;
+    width: 50%;
+ }
+ #p5 {
+    background-color: white;
+    color: black;
+    width: 50%;
+ }
+
+ div {
+    width: 50%;
+    background-color: aliceblue;
+    text-align: center;
+/* padding =marge à l'exterieur du bloc  */
+    padding-left: 100PX;
+/* marge à l'interieur du bloc  */
+    /* margin: 100px; */
+ }
+/* une classe prend en compte tt les paragraphe ecrit classe par alors que l'id est unique elle peut etre utiliser dans un seul element  */
+ .par {
+    font-family: sans-serif;
+    font-size: larger;
+ }

@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+#titre
+{
+    color: brown;
+}
+/**Pour appeler un element et on a definit un id on l'appelle par #nomID
+si on l'a définit par une classe on met .nomClasse
+le nom de la classe peut etre def sur pluisieurs elements alors que le nom de l'element est unique 

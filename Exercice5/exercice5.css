@@ -1,0 +1,10 @@
+/* ou bien on peut faire  */
+/* .clair et .sombre sont des classes css */
+.clair{
+    background-color: white;
+    color: black;
+}
+.sombre{
+    background-color: black;
+    color: white;
+}
